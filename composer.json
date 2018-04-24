@@ -9,20 +9,18 @@
             "email": "hanwei@mafengwo.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
     },
     "autoload":{
         "psr-4":{
-	    "App\\":"app/"	
-	
-	},
-	"files":[
-		"helpers/helper.php"
-	  ],
-	"classmap":[
-	  "Utils"
-	]
+	       "App\\" :"app/"
+	    },
+        "files":[
+            "helpers/helper.php"
+          ],
+        "classmap":[
+             "Utils"
+        ]
 
     }	
 	
