@@ -1,0 +1,29 @@
+{
+    "name": "mfw/composer",
+    "description": "describe your package's information",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hanwei",
+            "email": "hanwei@mafengwo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "autoload":{
+        "psr-4":{
+	    "App\\":"app/"	
+	
+	},
+	"files":[
+		"helpers/helper.php"
+	  ],
+	"classmap":[
+	  "Utils"
+	]
+
+    }	
+	
+}

@@ -1,0 +1,15 @@
+{
+    "name": "mfw/composer",
+    "description": "describe your package's information",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hanwei",
+            "email": "hanwei@mafengwo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    }
+}
